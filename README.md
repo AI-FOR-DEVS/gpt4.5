@@ -17,7 +17,7 @@ A simple command-line chat application that uses OpenAI's GPT-4.5 for text respo
 
 2. Install the required dependencies:
    ```
-   pip install -r requirements.txt
+   pip install openai playsound
    ```
 
 ## Configuration
@@ -27,3 +27,13 @@ Set your OpenAI API key using one of these methods:
 ### Option 1: Environment Variable
 
 **Windows:**
+
+```
+set OPENAI_API_KEY=your-api-key-here
+```
+
+**Linux/Mac:**
+
+```
+export OPENAI_API_KEY=your-api-key-here
+```
